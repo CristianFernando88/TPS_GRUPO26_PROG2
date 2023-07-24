@@ -1,0 +1,21 @@
+Ejercicio 10
+Haciendo uso del anterior documento HTML se pide explicar de forma escrita como está formada la web y que
+ elementos contiene.
+
+ La pagina se encuentra formada por.
+
+ -Header o encabezado:
+ que contiene los siguientes elementos un img que contiene el logo, 3 etiquetas de enlace que sirven de navegacion 
+ a otros partes del sitio
+
+ -Contenedro gral. div:
+ este contien otros 3 contenedores div con el contenido centrado.
+el primer subcontenedor contiene un etiquete de titulo h1, un parrafo que contiene texto lorem
+y una etiqueta de imagen
+el segundo div contiene un subtitulo, un parrafo con lorem y un etiqueta de video
+el 3 div contiene una etiqueta h6 de menor relevancia con contenido lorem y 2 saltos de linea
+
+-footer o pie de pagina:
+tiene un etiqueta de titulo, seguido de un etiqueta de lista desordenada, que contiene 3 list item 
+que a suves contiene una etiqueta de enla o hipervinculo a enlaces de redes sociales
+por ultimo contiene un parrafo conlorem alineado al centro

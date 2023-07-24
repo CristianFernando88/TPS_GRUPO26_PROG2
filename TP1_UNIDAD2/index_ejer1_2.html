@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--
+    Ejercicio 1
+    Crear un formulario de contacto que contenga los siguientes campos: Nombre, Apellido, Email, 
+    Número de teléfono y un recuadro para el mensaje que por defecto tenga 30 cols y 5 rows.
+    Ejercicio 2
+    Usando el mismo formulario del ejercicio anterior se pide agregar un valor por defecto al 
+    campo de nombre y apellido, un botón que tenga el valor de “Enviar!” y acomodar el formulario 
+    con saltos de líneas”.-->
+    <form>
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" value="Nombre por defecto" required><br><br>
+        <label title="apellido">Apellido: </label>
+        <input type="text" name="apellido" value="Apellido por defecto" required><br><br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" required><br><br>
+        <label for="telefono">Telefóno: </label>
+        <input type="tel" name="telefono" required><br><br>
+        <label for="mensaje">Mensaje: </label>
+        <textarea name="mensaje" cols="30" rows="5" placeholder="Escribe tu mensaje aquí"></textarea><br>
+        <input type="submit" value="Enviar!">
+    </form>
+</body>
+</html>
