@@ -1,0 +1,9 @@
+.boton{
+    font-size: 15px;
+}
+
+.boton:hover{
+    box-shadow: 10px 5px 5px gray;
+    background-color: #FDD98B;
+    border-radius: 10px;
+}
