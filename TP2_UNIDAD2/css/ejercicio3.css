@@ -1,31 +1,19 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+.elemento-animado {
+    width: 100px;
+    height: 100px;
+    background-color: #326c93;
+    transform-origin: center center; 
+    animation: rotacion 4s linear infinite; 
 }
-body{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-}
-.contenedor-giratorio{
-    height: 200px;
-    width: 200px;
-    background-color: white;
-    border: 1px solid grey;
-    animation-name: rotacion;
-    animation-iteration-count: infinite;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-}
+
 @keyframes rotacion {
-    0%{
-        transform: rotate(0deg);
+    0% {
+      transform: rotate(0deg); 
     }
-    100%{
-        transform: rotate(360deg)
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg); 
     }
 }
